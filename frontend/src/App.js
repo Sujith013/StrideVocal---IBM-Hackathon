@@ -6,7 +6,7 @@ function App() {
   const [isRecording, setIsRecording] = useState(false);
   const [audioLevel, setAudioLevel] = useState(0);
   const [status, setStatus] = useState('Initializing...');
-  const [backendUrl, setBackendUrl] = useState(processingResults.env.REACT_APP_API_URL);
+  const [backendUrl, setBackendUrl] = useState(process.env.REACT_APP_API_URL);
   const [processingResults, setProcessingResults] = useState(null);
   
   const mediaRecorderRef = useRef(null);

@@ -73,3 +73,7 @@ server/uploads/
 .vscode/
 __pycache__/
 zip/
+
+#credentials
+credentials.json
+lamda_credentials.json
