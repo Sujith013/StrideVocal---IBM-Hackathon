@@ -76,4 +76,7 @@ zip/
 
 #credentials
 credentials.json
-lamda_credentials.json
+lambda_gmail_creds.json
+backend/credentials.json
+backend/lambda_gmail_creds.json
+backend/Agent Tools/gmail-aws lambda/lambda_gmail_creds.json
